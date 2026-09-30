@@ -1,16 +1,20 @@
 /*
- * Tema 2 · Fundamentos y particularidades de JavaScript
  * Ejercicio 1 · ¿Qué tipo tengo realmente?
  */
 
-const numero = 42;
-const texto = '42';
-const lista = [1, 2, 3];
-const datoNulo = null;
-const resultado = NaN;
+// Si escribimos 20 en prompt("Edad"), typeof devuelve un string
+// porque prompt() siempre devuelve el dato como texto.
 
-console.log('Número:', typeof numero);
-console.log('Texto:', typeof texto);
-console.log('Array:', typeof lista, '¿Es un array?', Array.isArray(lista));
-console.log('Null:', typeof datoNulo);
-console.log('NaN:', typeof resultado);
+const nombre = prompt("Nombre:");
+const edad = prompt("Edad:");
+const altura = prompt("Altura en metros:");
+
+console.log("Nombre:", typeof nombre, nombre);
+console.log("Edad:", typeof edad, edad);
+console.log("Altura:", typeof altura, altura);
+
+const edadConvertida = Number(edad);
+const alturaConvertida = Number(altura);
+
+console.log("Edad convertida:", typeof edadConvertida, edadConvertida);
+console.log("Altura convertida:", typeof alturaConvertida, alturaConvertida);
