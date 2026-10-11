@@ -1,3 +1,18 @@
+## Ejercicios de JavaScript
+
+Documento de Google Docs con los ejercicios:
+[Ver documento de Google Docs](https://docs.google.com/document/d/1-OR98PB3Rglm7d8OZ02kC9VFXkO6TWtuGFxc_xrNPvY/edit?usp=sharing)
+
+
+
+
+
+
+
+
+
+
+
 # plantillas_wordpress
 # Plantilla WordPress con Docker
 
